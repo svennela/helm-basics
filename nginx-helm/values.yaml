@@ -1,0 +1,7 @@
+replicaCount: 1
+ports:
+  internal: 80
+  external: 8080
+image:
+  name: nginx
+  tag: 1.7.9
